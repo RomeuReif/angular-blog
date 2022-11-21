@@ -1,8 +1,33 @@
 
-.menu-bar-container > ul {
+.menu-bar-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+   
+}
+
+.nav-bar > ul {
     display: flex;
 }
 
-.menu-bar-container > ul > li {
+.nav-bar > ul > li {
     margin-right: 20px;
+}
+
+.nav-bar > ul > li > a:hover {
+    color: #714f00;
+    transition: 0.6s;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo > img {
+    width: 40px;
+    margin-right: 50px;
 }

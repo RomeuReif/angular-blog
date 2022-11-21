@@ -1,6 +1,7 @@
 header {
+    box-shadow: -3px 1px 5px 1px #714f00;
     margin-top: 20px;
     margin-bottom: 20px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
